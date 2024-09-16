@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert Ferdinand Geraldo Tambunan</title>
+    <link rel="icon" href="icon.png">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f0f8fff5;
+        }
+        header {
+            background-color: #3E432E;
+            color: #ffffff;
+            padding: 15px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        header nav {
+            margin-top: 10px;
+        }
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        section {
+            padding: 80px 20px 20px;
+            margin-top: 60px;
+        }
+        .hero {
+            background-image: img('Free Pixel Art Forest by edermunizz.jpg') no-repeat center center/cover;
+            color: #616F39;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .content img {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .about-text {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .achievements ul {
+            list-style: none;
+            padding: 0;
+        }
+        .achievements li {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .gallery img {
+            width: calc(33% - 10px);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .hobbies {
+            background-color: #e6e6fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .hobbies ul {
+            list-style: none;
+            padding: 0;
+        }
+        .hobbies li {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #3E432E;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Albert Ferdinand Geraldo Tambunan</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h1>Hey, I’m Albert!</h1>
+    <p>Discover my journey and all the cool stuff I’ve been up to!</p>
+</section>
+
+<section id="about">
+    <h2>My Story</h2>
+    <div class="content">
+        <img src="albert.jpeg" alt="Albert Ferdinand Geraldo Tambunan" height="50%" width="50%"> 
+        <p class="about-text">Born on September 10, 2005, in Pontianak, I had to move to Nanga Pinoh with my older sibling due to some family issues. I went through elementary and middle school there. Although I didn’t shine much during SD and SMP, things took a turn when I hit high school. I scored the top spot in my class in the final semester and took home trophies from various competitions like quiz bees, pantun battles, and singing contests. Hard work pays off!</p>
+    </div>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    <div class="achievements">
+        <ul>
+            <li>1st Place in Class (Senior High School)</li>
+            <li>Champion in Quiz Bee</li>
+            <li>Winner of Pantun Battle</li>
+            <li>Top in Singing Contest</li>
+        </ul>
+    </div>
+</section>
+
+<section id="hobbies" class="hobbies">
+    <h2>Hobbies & Skills</h2>
+    <ul>
+        <li>Guitar Playing</li>
+        <li>Programming</li>
+        <li>Exploring New Skills</li>
+    </ul>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="lomba-1.jpg" alt="Quiz Bee Event">
+        <img src="lomba-2.jpg" alt="Pantun Battle">
+        <img src="lomba-3.jpg" alt="Singing Contest">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:albert@example.com">albert@example.com</a></p>
+    <p>Social Media: [Insert social media links here]</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Albert Ferdinand Geraldo Tambunan | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</footer>
+
+</body>
+</html>
